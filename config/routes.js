@@ -1,5 +1,4 @@
 var scrape = require("../scripts/scrape");
-//var headlineController = require("../controllers/headline");
 var headlineController = require("../controllers/headline");
 var notesController = require("../controllers/note");
 

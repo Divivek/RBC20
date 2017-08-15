@@ -29,9 +29,9 @@ app.use(bodyParser.urlencoded({
 app.use(router);
 
 
-var db = process.env.MONGODB_URI || "mongodb://localhost/mongoheadlines";
+//var db = process.env.MONGODB_URI || "mongodb://localhost/mongoheadlines";
 
-
+var db = "mongodb://heroku_dcwnrkp8:cr021p9g1m1rlsr1snaob7tefq@ds029476.mlab.com:29476/heroku_dcwnrkp8"
 mongoose.connect(db, function(error) {
   if (error) {
     console.log(error);
